@@ -3,15 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Table</title>
+    <style>
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+    </style>
 </head>
 <body>
     <h1>Presidents</h1>
     <table> 
         <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Years in Office</th>
+            <th>FIRST NAME</th>
+            <th>LAST NAME</th>
+            <th>PERIOD</th>
         </tr>
 
         <tr>
@@ -25,7 +41,12 @@
             <td>Donald</td>
             <td>2018-2022</td>
         </tr>
-
+        
+        <tr>
+            <td>Jani Khan</td>
+            <td>Imran</td>
+            <td>2018-4Ever</td>
+        </tr>
     </table>
 </body>
 </html>
