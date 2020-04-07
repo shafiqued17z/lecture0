@@ -1,0 +1,10 @@
+h1 {
+    color: orange;
+    width: 400px;
+    height: 70px;
+    margin: 20px;
+    font-family: Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    border: 3px solid red;
+}
